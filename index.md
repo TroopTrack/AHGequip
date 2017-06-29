@@ -19,4 +19,4 @@ are:
 * Mac
 * Linux distros that can use [`.AppImage`](http://appimage.org/) files
 
-<script type="text/javascript" src="{{ site.url }}/assets/js/index.js" />
+<script type="text/javascript" src="{{ site.baseurl}}/assets/js/index.js" />
