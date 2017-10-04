@@ -1,27 +1,20 @@
 function getLinks() {
   var response = JSON.parse(this.responseText);
   var assetCount = response.assets.length;
-  var winUrl, macUrl, linUrl, asset;
-
-  console.dir(response)
+  var asset;
 
   for (var i = 0; i < assetCount; i++) {
     asset = response.assets[i]
-    console.dir(asset)
     if (/^AHGequip-Setup-.+\.exe$/.test(asset.name)) {
-      winUrl = asset.browser_download_url;
+      winLink.href = asset.browser_download_url;
     } else if (/^AHGequip-.+\.dmg$/.test(asset.name)) {
-      macUrl = asset.browser_download_url;
+      macLink.href = asset.browser_download_url;
     } else if (/AHGequip-.+-x86_64\.AppImage/.test(asset.name)) {
-      linUrl = asset.browser_download_url;
+      linLink64.href = asset.browser_download_url;
+    } else if (/AHGequip-.+-i386\.AppImage/.test(asset.name)) {
+      linLink32.href = asset.browser_download_url;
     }
   }
-
-  console.log('winUrl: ', winUrl)
-
-  winLink.href = winUrl
-  macLink.href = macUrl
-  linLink.href = linUrl
 }
 
 var request = new XMLHttpRequest();

@@ -8,7 +8,10 @@ Get it for:
 |
 <a id="macLink">Mac</a>
 |
-<a id="linLink">Linux</a>
+Linux
+<a id="linLink64">64-bit</a>
+or
+<a id="linLink32">32-bit</a>
 
 [AHGequip](https://github.com/TroopTrack/AHGequip/releases/latest) is a
 cross-platform app with auto-update support that lets AHG members complete their
