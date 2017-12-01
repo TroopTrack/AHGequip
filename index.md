@@ -14,7 +14,7 @@ or
 <a id="linLink32">32-bit</a>
 
 [AHGequip](https://github.com/TroopTrack/AHGequip/releases/latest) is a
-cross-platform app with auto-update support that lets AHG members complete their
+cross-platform app with auto-update support that lets AHG Members complete their
 training on (most) any operating system they want. Specifically, supported OSes
 are:
 

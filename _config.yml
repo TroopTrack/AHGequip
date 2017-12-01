@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: AHGequip
 description: > # this means to ignore newlines until "baseurl:"
-  A cross-platform training app for AHG members
+  A cross-platform training app for AHG Members
 baseurl: "/AHGequip" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  TroopTrack
