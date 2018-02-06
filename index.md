@@ -13,10 +13,12 @@ Linux
 or
 <a id="linLink32">32-bit</a>
 
-[AHGequip](https://github.com/TroopTrack/AHGequip/releases/latest) is a
-cross-platform app with auto-update support that lets AHG Members complete their
-training on (most) any operating system they want. Specifically, supported OSes
-are:
+[AHGequip](https://github.com/TroopTrack/AHGequip/releases/latest) is AHG’s
+online training platform. It is accessible via a desktop application and a
+mobile app. Housing AHG’s training resources in the AHGequip app will allow for
+viewing on any device – desktop, laptop, phone, tablet. AHG Registered Adult
+Members can access AHGequip, once downloaded, using their AHGconnect/AHGsource
+username and password. Specifically supported Operating Systems are:
 
 * Windows
 * Mac
